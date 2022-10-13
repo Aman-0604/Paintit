@@ -1,0 +1,33 @@
+.board-field {
+    width: 80vw;
+    height: 80vh;
+}
+
+.color-picker-feature {
+    text-align: center;
+    display: inline;
+    color: black;
+}
+
+.brushsize-feature {
+    display: inline;
+    color: black;
+    margin-left: 12px;
+}
+
+.tools-field {
+    width: 50vw;
+    margin: auto;
+    background-color: #dbdbdb;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.board-holder {
+    border: 0.5px solid black;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 1%;
+    background: white;
+}

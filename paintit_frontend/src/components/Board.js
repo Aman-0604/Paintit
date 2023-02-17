@@ -6,7 +6,7 @@ import "../styles/board.css";
 class Board extends React.Component {
 
     timeout;
-    socket = io.connect("http://localhost:8000");
+    socket = io.connect("https://paintit.vercel.app/");
 
     ctx;
     isDrawing = false;
